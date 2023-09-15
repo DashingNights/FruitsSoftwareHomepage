@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import FruitLogo from './assets/fruit.svg'
 import GitHubLogo from './assets/github-mark-white.svg'
+import Discordlogo from './assets/discord.svg'
 import './App.css'
 
 function App() {
@@ -18,7 +19,10 @@ function App() {
       <div className="iconAlign">
         <div className="icons">
             <a href="https://github.com/Fruit-Softwares" target="_blank">
-            <img src={GitHubLogo} className="logo" alt="Github" />
+            <img src={GitHubLogo} className="logo connections" alt="Github" />
+          </a>
+          <a href="https://argus10q.live/fruitsoft/discord" target="_blank">
+            <img src={Discordlogo} className="logo connections" alt="Discord" />
           </a>
         </div>
       </div>
